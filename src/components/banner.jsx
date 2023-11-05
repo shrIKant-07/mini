@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from "react";
-import Typed from "react-typed"
+
 import heroVid from '../assets/bannervideo.mp4'
 import Vid from '../assets/bannervideo_21_compressed.mp4'
 import { Link } from 'react-router-dom'
@@ -33,7 +33,7 @@ const Banner = () => {
 
     <div > 
     <p className="mb-6 lg:p-5 text-2xl font-bold md:pl-4 pl-2" data-aos="fade-left" >Check the shot</p>
-    <Typed className="mb-6 lg:p-5 lg:text-4xl text-[#00df9a] font—bold md:pl-4 pl—2" strings={['DRIVE','SWEEP','FLICK','PULL','CUT' ]} typeSpeed={120} backSpeed={130} loop />
+
     
     </div>
     <Link  to="/Checkshot" className="flex justify-center" >
