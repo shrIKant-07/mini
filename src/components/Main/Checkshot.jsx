@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Vid from './load.mp4';
 import defaultImage from './cam1.png';
-import darkImage from './camDark.png';
+import darkImage from './camdark.png';
 import useTheme from '../../context/theme';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
