@@ -58,7 +58,7 @@ const Shotcontent = () => {
         <ImageCard
           title="Sweep Shot"
           description="The sweep shots are cross-batted shots played on the front foot, usually by kneeling on one knee."
-          imageSrc="https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/googly201118-3.jpg"
+          imageSrc="https://cdn.shopify.com/s/files/1/0278/4565/6649/files/WhatsApp_Image_2023-08-07_at_05.27.43.webp?v=1691366509"
           linkTo='/Sweep'
         />
         <ImageCard

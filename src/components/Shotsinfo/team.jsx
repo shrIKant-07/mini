@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faLinkedin, faGithub,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Img1 from './shri.jpg';
 import Img2 from './umair.jpg';
 import AOS from 'aos';
@@ -53,7 +53,7 @@ function TeamMember({ name, role, description, imageSrc, twitterLink, facebookLi
           </li>
           <li>
             <a href={facebookLink} className="text-gray-500 hover:text-green-700">
-              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
           <li>
@@ -101,10 +101,10 @@ function Team() {
             role="ML Engineer"
             description="Crafting digital experiences that delight users is my passion. Explore my work and get in touch!"
             imageSrc={Img2}
-            twitterLink="https://twitter.com/jeseleos"
-            facebookLink="https://facebook.com/jeseleos"
-            linkedInLink="https://www.linkedin.com/in/jeseleos"
-            githubLink="https://github.com/jeseleos"
+            twitterLink="https://twitter.com/umair98392"
+            facebookLink="https://www.instagram.com/umair98392/"
+            linkedInLink="https://www.linkedin.com/in/umair98392/"
+            githubLink="https://github.com/umair98392"
           />
           {/* Add more TeamMember components here */}
         </div>

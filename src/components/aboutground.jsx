@@ -41,7 +41,9 @@ function AboutGround() {
             <p className=' md:text-lg text-gray-700 dark:text-white'>
               Fielding positions are an essential part of any cricket match, and if the captain places his or her players in the correct places, it can be key to the final outcome. Cricket is a sport with unique terminology, and many of the fielding positions come with their own idiosyncratic language. Click below to see the fielding positions.
             </p>
+          
             <PopupImage />
+         
           </div>
         </div>
         <img src={Img} alt="" className='md:w-1/2'  data-aos="fade-left" // Existing animation direction
