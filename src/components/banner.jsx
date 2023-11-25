@@ -79,7 +79,7 @@ const Banner = () => {
           </p>
         </div>
         <Link to="/Checkshot" className="flex justify-center">
-          <button href="#" data-aos="zoom-in" className='bg-[#00df9a] w-[200px]  rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400  hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300'>
+          <button href="#" data-aos="zoom-in        " className='bg-[#00df9a] w-[200px]  rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400  hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300'>
             Check the shot
           </button>
         </Link>

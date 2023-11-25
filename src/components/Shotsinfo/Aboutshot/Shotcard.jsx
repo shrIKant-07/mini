@@ -16,7 +16,7 @@ const Shotcard = ({ title, text, gifSrc }) => {
       <h2 className="text-2xl dark:text-blue-100 text-center font-bold mb-4"  data-aos="zoom-in" >{title}</h2>
       <div className="md:flex md:items-center">
         <p className="text-gray-600 md:text-lg dark:text-white md:flex-1"  data-aos="fade-right" >{text}</p>
-        <img src={gifSrc}  data-aos="fade-left" alt="GIF" className="w-64 h-64 object-cover rounded-lg mx-auto  mt-0 md:mt-0 md:w-1/5 sm:w-1/2 md:ml-4 sm:max-w-sm" />
+        <img src={gifSrc}  data-aos="fade-left" alt="GIF" className="w-64 h-64 object-cover rounded-lg mx-auto p-3 mt-0 md:mt-0 md:w-1/5 sm:w-1/2 md:ml-4 sm:max-w-sm" />
       </div>
     </div>
     </div>
