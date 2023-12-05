@@ -91,8 +91,8 @@ function Team() {
             role="Designer & Web Developer"
             description="Crafting digital experiences that delight users is my passion. Explore my work and get in touch!"
             imageSrc={Img1}
-            twitterLink="https://twitter.com/bonniegreen"
-            facebookLink="https://facebook.com/bonniegreen"
+            twitterLink="https://twitter.com/"
+            facebookLink="https://instagram.com/shrikant20.1.7?utm_source=qr&igshid=MThlNWY1MzQwNA=="
             linkedInLink="https://www.linkedin.com/in/shri-kant-a03099200/"
             githubLink="https://github.com/shrIKant-07"
           />

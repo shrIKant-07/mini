@@ -1,5 +1,5 @@
 import React , { useEffect } from 'react';
-import Vid from '../assets/video.mp4';
+import Vid from '../assets/aboutvid.mp4';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,8 +26,8 @@ function Aboutcheck() {
         <div className='md:w-1/2'
         data-aos="fade-left" // Existing animation direction
         data-aos-duration="1000">
-          <video controls className='w-full rounded-lg shadow-md'>
-            <source src={Vid} type='video/mp4' />
+          <video controls className='w-full rounded-lg shadow-md' muted>
+            <source src={Vid} type='video/mp4'  />
             Your browser does not support the video tag.
           </video>
         </div>
